@@ -1,0 +1,4 @@
+The title attribute gives extra information about an element.
+It can be used in any HTML element.
+
+Alt attribute gives the alternative text to an image if the image cannot be viewed.
