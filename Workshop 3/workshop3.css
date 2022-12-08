@@ -26,12 +26,12 @@ padding: 15px;
 text-align:center;
 }
 @media screen and (max-width:600px) {
-    .column a, .column b, .column c {
+    .column content, .column b, .column c {
         width: 50%;
     }
 }
 @media screen and (max-width:400px) {
-    .column a, .column b, .column c {
+    .column content, .column b, .column c {
         width: 100%;
     }
 }
