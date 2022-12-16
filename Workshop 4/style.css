@@ -1,0 +1,11 @@
+img{
+    border-radius: 50%;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
