@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function change(){
+            var para = document.getElementsByTagName("p");
+            console.log(para);
+
+            para[0].style.color = "red";
+            para[1].style.fontSize = "25px";
+            para[2].style.fontWeight = "bold";
+            para[3].style.fonttyle = "italic";
+        }
+    </script>
+</head>
+<body>
+    <p>My first paragraph</p>
+    <p>My second paragraph</p>
+    <p>My third paragraph</p>
+    <p>My fourth paragraph</p>
+    <button onclick="change()">change</button>
+</body>
+</html>

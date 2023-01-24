@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.flex-item1{
+    padding-left: 20px;
+}
+.flex-item3{
+    padding-right: 20px;
+}
+#home{
+
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    letter-spacing: 8px;
+    transition: all 0.5s ease-out;
+}
+#home:hover{
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    
+    font-family: 'Bungee', cursive;
+    font-size: 400px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+    top: 0;
+    position: absolute;
+    z-index: -500;
+    margin-top: -18%;
+    animation-name: slideInUp;
+    animation-duration: 0.5s;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold; 
+
+}
+
+.center{
+    padding-bottom: 20px;
+    text-align: center; 
+    animation-name: slideInUp;
+    animation-duration: 3s;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.footer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   
+    animation-name: slideInUp;
+    animation-duration: 4s;
+}
+
+.fb{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.ig{
+    padding-left: 60px;
+   padding-bottom: 20px;
+}
+.linkedin{
+   padding-left: 60px;
+   padding-bottom: 20px;
+}
+.github{
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+#git{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#git:hover{
+    width: 35px;
+    height: 35px;
+}
+#fb{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#fb:hover{
+    width: 35px;
+    height: 35px;
+}
+#ig{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#ig:hover{
+    width: 35px;
+    height: 35px;
+}
+#linkedIn{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#linkedIn:hover{
+    width: 35px;
+    height: 35px;
+}
+
+@keyframes slideInUp {
+    from {
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+#preloader{
+    background: #fffefe url(https://cdn.dribbble.com/users/806947/screenshots/5030082/loader_gif_1.gif) no-repeat center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}

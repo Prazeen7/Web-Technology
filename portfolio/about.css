@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+    margin: 1;
+    padding: 1;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+body{
+    background-color:  #000000
+}
+.flex-item1{
+    padding-left: 20px;
+}
+.flex-item3{
+    padding-right: 20px;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    letter-spacing: 8px;
+}
+
+#work{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#home{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+#about{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   
+  
+}
+.fb2{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.ig2{
+    padding-left: 60px;
+   padding-bottom: 20px;
+}
+.linkedin2{
+   padding-left: 60px;
+   padding-bottom: 20px;
+}
+.github2{
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+#git2{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#git2:hover{
+    width: 35px;
+    height: 35px;
+}
+#fb2{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#fb2:hover{
+    width: 35px;
+    height: 35px;
+}
+#ig2{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#ig2:hover{
+    width: 35px;
+    height: 35px;
+}
+#linkedIn2{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#linkedIn2:hover{
+    width: 35px;
+    height: 35px;
+}
