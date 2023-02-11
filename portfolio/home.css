@@ -1,7 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+button {
+  border: none;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+}
+button:hover {
+  background-color: #008CBA;
+  color: #f2f2f2;
+}
+button:active {
+  background-color: #03789f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -13,15 +38,20 @@
     animation-duration: 1.5s;
 }
 .flex-item1{
+    margin-top: -1%;
     padding-left: 20px;
 }
+.flex-item2{
+  margin-left: 35%;
+}
 .flex-item3{
-    padding-right: 20px;
+    margin-top: -1%;
+    margin-left: 35%
 }
 #home{
 
     font-family: 'Poppins', sans-serif;
-    color: blue;
+    color: #008CBA;
     letter-spacing: 8px;
     transition: all 0.5s ease-out;
 }
@@ -29,15 +59,11 @@
     color: rgb(0, 0, 0);
 }
 
-a{
-    color: black;
-    text-decoration: none;
-}
 
 h1{
     
     font-family: 'Bungee', cursive;
-    font-size: 400px;
+    font-size: 394px;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px;
@@ -161,18 +187,11 @@ body{
       transform: translate3d(0, 0, 0);
     }
   }
-#preloader{
-    background: #fffefe url(https://cdn.dribbble.com/users/806947/screenshots/5030082/loader_gif_1.gif) no-repeat center;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
 
 /* work section */
 .work-page{
     font-family: 'Bungee', cursive;
-    font-size: 400px;
+    font-size: 397px;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px;
@@ -180,9 +199,8 @@ body{
     position: absolute;
     z-index: -500;
     margin-top: 11%;
-    margin-left: -2%;
+    margin-left: -4%;
     height: 100vh;
-    width: 100vh;
 }
 
 .nagual{
@@ -205,7 +223,7 @@ body{
 /* About section */
 .about-page{
     font-family: 'Bungee', cursive;
-    font-size: 400px;
+    font-size: 393px;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px;
@@ -213,12 +231,11 @@ body{
     position: absolute;
     z-index: -500;
     margin-top: 65%;
-    margin-left: -13%;
+    margin-left: -12%;
     height: 100vh;
-    width: 100vh;
 }
 .ABOUT{
-    margin-top: 34%;
+    margin-top: 29%;
     margin-left: 57%;
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
@@ -407,7 +424,7 @@ body{
   .tooltip-personal .tooltiptext-personal::after {
     content: "";
     position: absolute;
-    top: 7%;
+    top: 10%;
     left: 100%;
     margin-top: -5px;
     border-width: 5px;
@@ -422,16 +439,17 @@ body{
 }
 #me{
     align-items: center;
-    width: 335px;
-    height: 250px;
+    width: 270px;
+    height: 450px;
     margin-top: 12px;
-    margin-left: -15px;
+    margin-left: 5px;
+    border: 4px solid #f2f2f2;
 }
 #prajin{
     text-align: center;
     margin-top: 0%;
     color: white;
-    margin-left: -7%;
+    margin-left: -3%;
    }
 
 
@@ -619,4 +637,184 @@ margin-top: 4%;
     height: 100px;
     margin-top: 0%;
     margin-left: 2%;
+}
+.tooltip-contact {
+    position: relative;
+    font-size: 55px;
+    font-weight: bold;
+    display: inline-block;
+    transition: font-size 0.5s; 
+  }
+  
+  .tooltip-contact .tooltiptext-contact {
+    visibility: hidden;
+    height: 270px;
+    width: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -123px;
+    right: 110%;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .tooltip-contact .tooltiptext-contact::after {
+    content: "";
+    position: absolute;
+    top: 89%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+  }
+  .tooltip-contact:hover .tooltiptext-contact {
+    visibility: visible;
+  }
+  .tooltip-contact:hover{
+    font-size: 70px;
+}
+
+#contact{
+    width: 50px;
+    height: 40px;
+    margin-top: 7%;
+    margin-left: -78%;
+}
+#number{
+    margin-top: -9%;
+    margin-left: 1%;
+}
+#mail{
+    width: 50px;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: -78%; 
+}
+#e{
+    margin-top: -9%;
+    margin-left: -14%;
+    color: white;
+}
+#address{
+    width: 50px;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: -78%;
+}
+#location{
+    margin-top: -9%;
+    margin-left: -25%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* media querry */
+ @media(min-width: 1442px) and (max-width: 1500px) {
+.flex-item1{
+  padding-left: 19px;
+  
+}
+}
+ @media screen and (min-device-width: 200px) and (max-device-width: 1000px){
+  #home{
+    font-size: 16px;
+  }
+  .flex-item1, button{
+    padding: 5px 10px;
+    margin-left: -4%;
+    margin-top: -6%;
+  }
+  .flex-item2{
+    margin-top: -5%;
+    margin-left: 2%;
+  }
+  .flex-item3{
+    margin-top: -5%;
+    margin-left: 1%;
+  }
+  #home-description{
+    font-size: 14px;
+  }
+  #emoji{
+    width: 50px;
+    height: 50px;
+  }
+  h1{
+    font-size: 100px;
+    margin-top: -12%;
+    margin-left: -12%;
+  }
+  #about-button{
+    margin-top: -5%;
+    margin-left: 14%;
+  }
+  .work-page{
+    font-size: 100px;
+    margin-top: 27%;
+    margin-left: -15%;
+  }
+  .tooltip{
+    font-size: 14px;
+    margin-left: -10%;
+  }
+  .tooltip .tooltiptext{
+    width: 180px;
+    height: 250px;
+    font-size: 10px;
+    top: -79px;
+    left: 104%;
+  }
+  .tooltip:hover{
+    font-size: 20px;
+  }
+  #sns{
+    margin-top: -7%;
+    margin-left: 7%;
+    width: 150px;
+    height: 100px;
+  }
+  #street{
+    margin-top: -42%;
+    margin-left: -10%;
+  }
+  .tooltip-nagual{
+    font-size: 14px;
+    margin-left: -10%;
+  }
+  .nagual{
+    margin-top: -13%;
+  }
+  .tooltip-nagual .tooltiptext-nagual {
+    width: 150px;
+    font-size: 10px;
+}
+#Nagual{
+  margin-left: 1%;
+  width: 50px;
+  height: 50px;
+}
+#book{
+  margin-left: -5%;
+}
+#nag{
+  margin-left: -12%;
+}
+.tooltip-nagual:hover{
+  font-size: 20px;
+}
+.tooltip-nagual .tooltiptext-nagual{
+  top: -33px
+}
+
 }

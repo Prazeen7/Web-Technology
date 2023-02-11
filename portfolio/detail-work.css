@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+button {
+  border: none;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+}
+button:hover {
+  background-color: #008CBA;
+  color: #f2f2f2;
+}
+button:active {
+  background-color: #03789f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.flex-item1{
+    margin-top: -1%;
+    padding-left: 20px;
+}
+.flex-item2{
+  margin-left: 35%;
+}
+.flex-item3{
+    margin-top: -1%;
+    margin-left: 35%
+}
+#home{
+
+    font-family: 'Poppins', sans-serif;
+    color: #008CBA;
+    letter-spacing: 8px;
+    transition: all 0.5s ease-out;
+}
+#home:hover{
+    color: rgb(0, 0, 0);
+}
+.footer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   
+    animation-name: slideInUp;
+    animation-duration: 4s;
+}
+
+.fb{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.ig{
+    padding-left: 60px;
+   padding-bottom: 20px;
+}
+.linkedin{
+   padding-left: 60px;
+   padding-bottom: 20px;
+}
+.github{
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+#git{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#git:hover{
+    width: 35px;
+    height: 35px;
+}
+#fb{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#fb:hover{
+    width: 35px;
+    height: 35px;
+}
+#ig{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#ig:hover{
+    width: 35px;
+    height: 35px;
+}
+#linkedIn{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease;
+    transition-timing-function: ease-out;
+}
+#linkedIn:hover{
+    width: 35px;
+    height: 35px;
+}
+@keyframes slideInUp {
+    from {
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes slideIndown {
+    from {
+      transform: translate3d(0, -100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+a{
+    text-decoration: none;
+}
+.work-container{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.sns{
+  animation-name: slideInslideright;
+  animation-duration: 2s;
+}
+#SNS3{
+width: 510px;
+height: 300px;
+}
+#nagual{
+  width: 215px;
+  height: 250px;
+}
+#sns{
+  margin-left: 18%;
+  margin-top: 1%;
+}
+.nagual{
+  animation-name: slideInslide;
+  animation-duration: 2s;
+}
+#book{
+  margin-top: 1%;
+  margin-left: 19%;
+}
+#street{
+  margin-left: 24%;
+}
+#nag{
+  margin-left: -12%;
+}
+#snsig{
+  width: 20px;
+  height: 20px;
+  margin-left: 47%;
+  transition: width 0.5s, height 0.5s;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease;
+  transition-timing-function: ease-out;
+}
+#snsfb{
+  width: 20px;
+  height: 20px;
+  margin-left: 5%;
+  transition: width 0.5s, height 0.5s;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease;
+  transition-timing-function: ease-out;
+}
+#snsig:hover{
+    width: 25px;
+    height: 25px;
+}
+#snsfb:hover{
+    width: 25px;
+    height: 25px;
+}
+
+@keyframes slideInslide {
+  from {
+    transform: translate3d(400%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInslideright {
+  from {
+    transform: translate3d(-400%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }}
